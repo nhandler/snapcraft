@@ -54,6 +54,7 @@ Usage:
   snapcraft [options] define <part-name>
   snapcraft [options] search [<query> ...]
   snapcraft [options] enable-ci [<ci-system>] [--refresh]
+  snapcraft [options] init
   snapcraft [options] help (topics | <plugin> | <topic>) [--devel]
   snapcraft (-h | --help)
   snapcraft --version
@@ -122,6 +123,7 @@ The available commands are:
   close        Close one or more channels of a snap.
   enable-ci    EXPERIMENTAL enable continuous-integration systems to build and
                release snaps to the Ubuntu Store.
+  init         Initialize the snapcraft.yaml for a new project.
 
 The available lifecycle commands are:
   clean        Remove content - cleans downloads, builds or install artifacts.
